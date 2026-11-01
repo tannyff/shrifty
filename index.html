@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Шрифты и палитры для блога | Татьяна</title>
+<meta name="description" content="Бесплатная подборка: шрифты с кириллицей, готовые пары для обложек и 19 палитр с HEX-кодами.">
+<meta property="og:title" content="Шрифты и палитры для блога">
+<meta property="og:description" content="Шрифты с кириллицей, пары для обложек и 19 палитр с HEX. Бесплатно.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#000000">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;900&family=Golos+Text:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Playfair+Display:ital,wght@0,700;1,600&family=Cormorant+Garamond:ital,wght@0,600;1,600&family=Forum&family=Montserrat:ital,wght@0,800;1,800&family=Russo+One&family=Rubik+Mono+One&family=Yeseva+One&family=Prata&family=Tenor+Sans&family=Lora:ital,wght@0,600;1,600&family=Alice&family=Comfortaa:wght@700&family=Bad+Script&family=Caveat:wght@600&family=Marck+Script&family=Great+Vibes&family=Pacifico&family=Lobster&family=Neucha&family=Amatic+SC:wght@700&family=Inter:wght@400;600&family=Manrope:wght@500;700&family=Rubik:wght@400;600&family=Nunito:wght@400;700&family=PT+Sans:wght@400;700&family=PT+Mono&family=Press+Start+2P&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#000000;--surface:#15110e;--line:#2a221c;
+  --bordo:#77111B;--accent:#E8667A;--accent-hi:#F28C9C;--text:#f3eee6;--muted:#a1968c;
+  --display:"Unbounded",system-ui,sans-serif;--body:"Golos Text",system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font:400 17px/1.6 var(--body);-webkit-font-smoothing:antialiased}
+a{color:var(--accent-hi)}
+:focus-visible{outline:2px solid var(--accent-hi);outline-offset:3px;border-radius:4px}
+.wrap{max-width:720px;margin:0 auto;padding:0 20px}
+
+.hero{padding:72px 0 36px}
+.by{color:var(--muted);font-size:15px;margin-bottom:28px}
+.by a{color:var(--text);text-decoration:none;border-bottom:1px solid var(--accent)}
+h1{font:900 clamp(56px,16vw,120px)/.9 var(--display);letter-spacing:-.04em}
+h1 span{display:block;font:400 clamp(44px,12vw,92px)/1 "Great Vibes",cursive;color:var(--accent);letter-spacing:0;transform:rotate(-5deg);transform-origin:left;margin:-.05em 0 0 .3em}
+.lead{font-size:clamp(18px,4.6vw,21px);max-width:38ch;margin:28px 0 0}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
+.toc a{color:var(--text);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-size:15px}
+.toc a:hover{border-color:var(--accent)}
+
+/* live text: the one memorable thing */
+.try{padding:14px 0 16px;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5;background:var(--bg)}
+.try-inner{background:var(--bordo);border-radius:20px;padding:14px 16px}
+.try label{display:block;font:600 15px var(--body);margin-bottom:8px;color:#fbe9ea}
+.try input{width:100%;background:#000;border:1px solid #9b3442;color:var(--text);font:500 17px var(--body);padding:12px 14px;border-radius:12px}
+.try input:focus{border-color:var(--accent-hi);outline:none}
+
+section{padding:48px 0 8px}
+h2{font:700 clamp(24px,6vw,32px)/1.15 var(--display);letter-spacing:-.01em}
+h2 em{font-style:normal;color:var(--accent)}
+.when{color:var(--muted);margin:8px 0 22px;max-width:60ch}
+
+/* pairs as mini covers */
+.pairs{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:14px}
+.pair{border-radius:18px;overflow:hidden;border:1px solid var(--line);background:var(--surface)}
+.cover{aspect-ratio:4/5;padding:22px 20px;display:flex;flex-direction:column;justify-content:center;overflow:hidden}
+.cover .sm{font:500 15px/1.3 var(--body);opacity:.85;margin-bottom:14px}
+.cover .big{text-transform:uppercase;line-height:.92;overflow-wrap:anywhere}
+.cover .scr{line-height:1.05;transform:rotate(-6deg);text-align:right;margin-top:-.15em}
+.pair .meta{padding:12px 16px 14px;font-size:14px;color:var(--muted)}
+.pair .meta b{display:block;color:var(--text);font:600 15px var(--body)}
+
+/* fonts */
+.fonts{display:grid;gap:10px}
+.font{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:16px 18px;display:grid;gap:6px}
+.font .sample{font-size:34px;line-height:1.15;overflow-wrap:anywhere}
+.font .row{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.font .nm{font:600 15px var(--body)}
+.font .nm small{color:var(--muted);font-weight:400;margin-left:6px}
+.font a{font-size:14px;text-decoration:none;border:1px solid var(--line);border-radius:10px;padding:6px 10px;color:var(--text)}
+.font a:hover{border-color:var(--accent)}
+
+/* palettes */
+.pals{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,210px),1fr));gap:12px}
+.pal{border-radius:18px;overflow:hidden;border:1px solid var(--line);background:var(--surface)}
+.pal .demo{aspect-ratio:5/3;display:flex;flex-direction:column;justify-content:center;padding:14px 16px}
+.pal .demo b{font:900 26px/1 var(--display);text-transform:uppercase}
+.pal .demo i{font:400 24px/1.1 "Bad Script",cursive;font-style:normal;margin-top:6px}
+.sw{display:flex;flex-wrap:wrap;gap:6px;padding:12px}
+.sw button{display:flex;align-items:center;gap:6px;background:#000;border:1px solid var(--line);color:var(--text);border-radius:10px;padding:6px 9px;font:500 13px var(--body);cursor:pointer;font-variant-numeric:tabular-nums}
+.sw button:hover{border-color:var(--accent)}
+.sw button i{width:14px;height:14px;border-radius:50%;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25)}
+.pal .nm{padding:0 14px 12px;font-size:14px;color:var(--muted)}
+
+.how ol{margin:6px 0 0 22px}
+.how li{margin-bottom:10px;max-width:60ch}
+.how li::marker{color:var(--accent);font-weight:700}
+
+.next{margin:56px 0 0;background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:24px 22px}
+.next h2{font-size:clamp(20px,5vw,26px)}
+.next p{color:var(--muted);margin:8px 0 18px}
+.btns{display:flex;flex-wrap:wrap;gap:10px}
+.btn{background:var(--accent);color:#000;font:700 15px var(--display);padding:14px 20px;border-radius:12px;text-decoration:none}
+.btn:hover{background:var(--accent-hi)}
+.btn.ghost{background:none;color:var(--text);border:1px solid var(--line)}
+.btn.ghost:hover{border-color:var(--accent)}
+footer{color:var(--muted);font-size:13px;text-align:center;padding:40px 0 36px}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--text);color:#000;font:600 14px var(--body);padding:10px 16px;border-radius:12px;opacity:0;transition:opacity .2s;pointer-events:none}
+.toast.on{opacity:1}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.toast{transition:none}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header class="hero">
+    <p class="by">Подборка от <a href="https://www.instagram.com/tannyff_m/">@tannyff_m</a> · бесплатно</p>
+    <h1>ШРИФТЫ<span>и палитры</span></h1>
+    <p class="lead">Шрифты с кириллицей, готовые пары для обложек и 19 палитр с HEX-кодами. Всё бесплатное, всё можно брать в Canva, Figma и CapCut.</p>
+    <nav class="toc" aria-label="Разделы">
+      <a href="#pairs">Пары для обложек</a><a href="#head">Для заголовков</a><a href="#script">Пропись</a><a href="#body">Для текста</a><a href="#pal">Палитры</a><a href="#how">Как установить</a>
+    </nav>
+  </header>
+
+  <div class="try">
+    <div class="try-inner">
+      <label for="t">Впиши свой текст, и все шрифты ниже покажут его</label>
+      <input id="t" type="text" value="Мой блог" maxlength="40" autocomplete="off">
+    </div>
+  </div>
+
+  <section id="pairs">
+    <h2>Пары для <em>обложек</em></h2>
+    <p class="when">Крупное слово капслоком плюс пропись поверх, чуть наискосок. Под каждой парой написано, какие шрифты взяты.</p>
+    <div class="pairs" id="pairsBox"></div>
+  </section>
+
+  <section id="head">
+    <h2>Для <em>заголовков</em></h2>
+    <p class="when">Крупные и характерные. Бери один на 1–2 главных слова, не на весь текст.</p>
+    <div class="fonts" id="headBox"></div>
+  </section>
+
+  <section id="script">
+    <h2><em>Пропись</em> и рукописные</h2>
+    <p class="when">Для акцента поверх заголовка. Одно-два слова, иначе читать тяжело.</p>
+    <div class="fonts" id="scriptBox"></div>
+  </section>
+
+  <section id="body">
+    <h2>Для <em>текста</em></h2>
+    <p class="when">Спокойные шрифты для подписей и мелкого текста на слайдах. Хорошо читаются с телефона.</p>
+    <div class="fonts" id="bodyBox"></div>
+  </section>
+
+  <section id="pal">
+    <h2>19 <em>палитр</em></h2>
+    <p class="when">Правило простое: тёмный цвет плюс светлый или насыщенный плюс пастельный. Акцент только на одно слово. Нажми на цвет, чтобы скопировать код.</p>
+    <div class="pals" id="palBox"></div>
+  </section>
+
+  <section id="how" class="how">
+    <h2>Как <em>установить</em></h2>
+    <ol>
+      <li>Нажми «Открыть» у шрифта. Откроется его страница на Google Fonts.</li>
+      <li>Нажми «Get font», потом «Download all» и распакуй архив.</li>
+      <li>На компьютере открой файл .ttf двойным щелчком и нажми «Установить». Шрифт появится в Figma, Word и других программах.</li>
+      <li>В Canva многие из этих шрифтов уже есть: ищи по названию. Если нет, свой шрифт можно загрузить в Canva Pro.</li>
+    </ol>
+  </section>
+
+  <aside class="next">
+    <h2>Хочешь ещё и промпты для визуала?</h2>
+    <p>20 бесплатных промптов для контента: впиши свою тему, и они подстроятся под твой блог.</p>
+    <div class="btns">
+      <a class="btn" href="https://tannyff.github.io/ai-prompts-guide/">Забрать промпты</a>
+      <a class="btn ghost" href="https://tannyff.github.io/">Все материалы</a>
+    </div>
+  </aside>
+
+  <footer>© Татьяна, 2026 · шрифты распространяются через Google Fonts по открытым лицензиям</footer>
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+const HEAD=[
+  ["Unbounded","Unbounded",900,"","широкий и жирный, как Benzin"],
+  ["Oswald","Oswald",700,"","узкий, как Druk"],
+  ["Playfair Display","Playfair Display",700,"italic","изящная антиква"],
+  ["Cormorant Garamond","Cormorant Garamond",600,"italic","тонкая классика"],
+  ["Forum","Forum",400,"","римские буквы, дорого"],
+  ["Montserrat","Montserrat",800,"italic","жирный курсив, как Gramatika"],
+  ["Russo One","Russo One",400,"","спортивный, плотный"],
+  ["Rubik Mono One","Rubik Mono One",400,"","моноширинный и крупный"],
+  ["Yeseva One","Yeseva One",400,"","контрастный, для бьюти"],
+  ["Prata","Prata",400,"","журнальная антиква"],
+  ["Tenor Sans","Tenor Sans",400,"","лёгкий, как у брендов одежды"],
+  ["Lora","Lora",600,"italic","мягкая книжная"],
+  ["Alice","Alice",400,"","сказочная, нежная"],
+  ["Comfortaa","Comfortaa",700,"","округлый, дружелюбный"],
+  ["Press Start 2P","Press Start 2P",400,"","пиксельный, для акцента"],
+  ["PT Mono","PT Mono",400,"","как печатная машинка"]
+];
+const SCRIPT=[
+  ["Bad Script","Bad Script",400,"","живой почерк"],
+  ["Caveat","Caveat",600,"","маркер от руки"],
+  ["Marck Script","Marck Script",400,"","быстрый наклонный"],
+  ["Great Vibes","Great Vibes",400,"","каллиграфия"],
+  ["Pacifico","Pacifico",400,"","жирная ретро-пропись"],
+  ["Lobster","Lobster",400,"","плотная, для вывесок"],
+  ["Neucha","Neucha",400,"","школьный почерк"],
+  ["Amatic SC","Amatic SC",700,"","узкий, нарисованный"]
+];
+const BODY=[
+  ["Golos Text","Golos Text",500,"","чистый, отлично читается"],
+  ["Inter","Inter",400,"","нейтральный, как Helvetica"],
+  ["Manrope","Manrope",500,"","современный, мягкий"],
+  ["Rubik","Rubik",400,"","чуть округлый"],
+  ["Nunito","Nunito",400,"","дружелюбный"],
+  ["PT Sans","PT Sans",400,"","классика для текста"]
+];
+const PAIRS=[
+  {a:"Oswald",aw:700,b:"Bad Script",bg:"#FBF2E5",fg:"#2A1416",ac:"#77111B",sz:64,bs:34},
+  {a:"Unbounded",aw:900,b:"Bad Script",bg:"#171817",fg:"#F4F1E8",ac:"#FFEFA7",sz:40,bs:34},
+  {a:"Forum",aw:400,b:"Great Vibes",bg:"#FBCACF",fg:"#3D1219",ac:"#7A1D2C",sz:52,bs:44},
+  {a:"Cormorant Garamond",aw:600,ai:1,b:"Great Vibes",bg:"#4D291D",fg:"#F7F0E8",ac:"#E7C9A9",sz:54,bs:44},
+  {a:"Montserrat",aw:800,ai:1,b:"Marck Script",bg:"#9B1D40",fg:"#EFE5D8",ac:"#EFE5D8",sz:42,bs:36},
+  {a:"Oswald",aw:700,b:"Press Start 2P",bg:"#0F1010",fg:"#F3F1EA",ac:"#F4F07D",sz:64,bs:16},
+  {a:"Oswald",aw:500,b:"Caveat",bg:"#B24614",fg:"#FBF2E5",ac:"#D8D9FF",sz:64,bs:40},
+  {a:"PT Mono",aw:400,b:"Unbounded",bw:900,bg:"#45472A",fg:"#EEE3CF",ac:"#F6DA75",sz:40,bs:26},
+  {a:"Playfair Display",aw:700,ai:1,b:"Inter",bw:600,bg:"#FAF9F7",fg:"#1C2B21",ac:"#264E32",sz:46,bs:20},
+  {a:"Cormorant Garamond",aw:600,ai:1,b:"Golos Text",bw:600,bg:"#F5E9DB",fg:"#2E1018",ac:"#9F2549",sz:54,bs:20}
+];
+const PAL=[
+  ["Крем и бордо",["#FBF2E5","#77111B"]],["Крем и терракота",["#FBF2E5","#A04132"]],["Шоколад и голубой",["#4F2D1B","#BBD3EE"]],
+  ["Шоколад и молочный",["#4D291D","#F7F0E8"]],["Слива и фисташка",["#731E52","#DDEAA1"]],["Чёрный и сливочно-жёлтый",["#171817","#FFEFA7"]],
+  ["Чёрный и мята",["#171817","#ABE5E1"]],["Чёрный, лимон, розовый",["#0F1010","#F4F07D","#F48290"]],["Крем, коричневый, васильковый",["#FAF1E8","#6B3419","#8B9DDC"]],
+  ["Белый и тёмно-зелёный",["#FAF9F7","#264E32"]],["Баклажан, молочный, оранжевый",["#533259","#F8F0E9","#D9772F"]],["Ржавчина и лаванда",["#B24614","#D8D9FF"]],
+  ["Малиновый и бежевый",["#9B1D40","#EFE5D8","#BBE6FF"]],["Серый и белый",["#737075","#FCFCFC"]],["Олива, жёлтый, беж",["#45472A","#F6DA75","#EEE3CF"]],
+  ["Пудра, вино, светло-серый",["#FBCACF","#7A1D2C","#EBEBEB"]],["Беж и ягодный",["#F5E9DB","#9F2549"]],["Коричневый и молочный",["#563D2A","#F7F4EF"]],
+  ["Лаванда, лайм, молочный",["#B1ACD6","#C4DF91","#F7F4E5"]]
+];
+const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const gf=n=>"https://fonts.google.com/specimen/"+n.replace(/ /g,"+");
+function fontList(id,list,size){
+  document.getElementById(id).innerHTML=list.map(([name,fam,w,st,note])=>`<div class="font"><div class="sample" style="font-family:'${fam}';font-weight:${w};font-style:${st||'normal'}${size?';font-size:'+size+'px':''}" data-live></div><div class="row"><span class="nm">${name}<small>${note}</small></span><a href="${gf(name)}" target="_blank" rel="noopener">Открыть</a></div></div>`).join("");
+}
+fontList("headBox",HEAD);fontList("scriptBox",SCRIPT,38);fontList("bodyBox",BODY,26);
+document.getElementById("pairsBox").innerHTML=PAIRS.map(p=>`<div class="pair"><div class="cover" style="background:${p.bg};color:${p.fg}"><div class="sm">смотри, как это</div><div class="big" style="font-family:'${p.a}';font-weight:${p.aw};font-style:${p.ai?'italic':'normal'};font-size:${p.sz}px;color:${p.ac}" data-live data-upper></div><div class="scr" style="font-family:'${p.b}';font-weight:${p.bw||400};font-size:${p.bs}px">выглядит</div></div><div class="meta"><b>${p.a} + ${p.b}</b>Название: ${p.a}${p.ai?' Italic':''} / ${p.b}</div></div>`).join("");
+document.getElementById("palBox").innerHTML=PAL.map(([nm,c])=>`<div class="pal"><div class="demo" style="background:${c[0]};color:${c[1]}"><b>Заголовок</b><i style="color:${c[2]||c[1]}">и пропись</i></div><div class="sw">${c.map(h=>`<button type="button" data-hex="${h}"><i style="background:${h}"></i>${h}</button>`).join("")}</div><div class="nm">${nm}</div></div>`).join("");
+
+const inp=document.getElementById("t");
+function paint(){const v=inp.value.trim()||"Мой блог";document.querySelectorAll("[data-live]").forEach(el=>{el.textContent=v})}
+inp.addEventListener("input",paint);paint();
+
+const toast=document.getElementById("toast");let tt;
+function say(m){toast.textContent=m;toast.classList.add("on");clearTimeout(tt);tt=setTimeout(()=>toast.classList.remove("on"),1600)}
+document.getElementById("palBox").addEventListener("click",e=>{
+  const b=e.target.closest("button[data-hex]");if(!b)return;const h=b.dataset.hex;
+  (navigator.clipboard?navigator.clipboard.writeText(h):Promise.reject()).then(()=>say("Скопировано: "+h)).catch(()=>say(h))
+});
+</script>
+</body>
+</html>
